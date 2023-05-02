@@ -1,0 +1,777 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Syloti+Nagri&family=Noto+Sans:wght@300;400&family=Open+Sans:wght@300&family=Orbitron:wght@500&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 96vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./assets/images/backgroun-img.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 8px solid #222222;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 90px;
+  
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 50px;
+    background: transparent;
+    margin-left: 50px
+}
+
+.eng{
+    width: 90px;
+    height: 36px;
+    border-radius: 2px;
+    border: none;
+    margin-right: 25px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+
+}
+
+.eng2{
+    width: 120px;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    margin-right: 25px;
+    color: #6c6e70;
+    background: transparent;
+    border: 1px solid #6c6e70;
+    font-weight: 600;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.sign{
+    width: 80px;
+    height: 36px;
+    border-radius: 3px;
+    border: none;
+    margin-right:70px;
+    color: white;
+    background-color: #e50914;
+    font-size: 15px;
+
+
+}
+
+
+
+
+
+.mid-section{
+    width: 70%;
+    height: 550px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+ 
+}
+
+.mid-section h1{
+
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    
+   
+}
+
+.mid-section h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.mid-section p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.email-section{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 2px;
+    
+}
+
+input{
+    width: 75%;
+    height: 60px;
+    border: none;
+    padding-left: 10px;
+    font-size: 18px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.email-section button{
+    width: 25%;
+    height: 60px;
+    background-color: #e50914;
+    margin-left: -5px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.email-section input:focus{
+    outline: none;
+}
+
+
+.enjoy{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    padding: 0px 200px;
+ 
+   border-bottom: 8px solid #222222;
+}
+
+.text-section{
+    width: 50%;
+    color: white;
+    padding-right: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.text-section h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.text-section h3{
+    font-size: 24px;
+}
+
+.image-section{
+   
+    width: 50%;
+   position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.image-section video{
+    position: absolute;
+    
+}
+
+.everywhere{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    padding: 0px 200px;
+ 
+   border-bottom: 8px solid #222222;
+}
+
+
+.shows{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    padding: 50px 80px;
+   background-color: #000000;
+   border-bottom: 8px solid #222222;
+}
+
+
+.add-cart{
+    
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+    padding: 80px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-bottom: 8px solid #222222;
+}
+
+.frequently{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-section{
+    margin-top: 50px;
+    display: grid;
+   
+    width: 100%;
+    justify-items: center;
+
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, 80px);
+    grid-gap: 10px;
+    
+}
+
+.box{
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    background-color: #303030;
+}
+
+.box h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.box i{
+    font-size: 28px;
+    font-weight:lighter;
+    color: white;
+}
+
+.add-cart .email-section{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 2px;
+    
+}
+
+.add-cart h1{
+
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    
+}
+
+.block{
+    width: 100%;
+    height: 50vh;
+    padding: 50px 250px;
+    background-color: red;
+}
+
+.contact-info{
+    display: grid;
+    
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,200px);
+    
+}
+
+.contact-info .box{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: green;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100%;
+    padding: 60px 300px;
+    color: #6c6e70;
+    background-color: #000000;
+}
+
+.footer h3{
+    font-size: 16px;
+}
+
+
+.footer span{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+
+.section{
+    width: 24%;
+    height: 150px;
+  
+   
+}
+
+.section p{
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
+
+
+ @media (max-width:1500px){
+    .enjoy{
+        padding: 40px 100px;
+        height: 70vh;
+        transition: ease-in 0.3s;
+    }
+
+    .everywhere{
+        padding: 40px 100px;
+        height:70vh;
+        transition: ease-in 0.3s;
+    }
+    .shows{
+        padding: 40px 100px;
+        height:70vh;
+        transition: ease-in 0.3s;
+    }
+   
+
+    
+}
+
+
+@media (max-width:1320px){
+
+    .enjoy{
+        padding: 40px 50px;
+    }
+    .everywhere{
+        padding: 40px 50px;
+    }
+    .shows{
+        padding: 40px 50px;
+    }
+
+
+    .mid-section h1{
+        font-size: 48px;
+       
+    }
+
+    .mid-section{
+        padding: 100px;
+    }
+
+    .image-section img{
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer{
+        padding: 60px 220px;
+       
+    }
+  
+
+}
+
+
+
+@media (max-width:1200px){
+    .footer{
+        padding: 60px 150px;
+       
+    }
+
+  
+}
+
+
+
+@media (max-width:1000px){
+
+    .grid-section{
+        width: 80%;
+      
+
+    }
+
+    .box{
+        width: 100%;
+    }
+    .enjoy{
+        padding: 60px;
+       
+    }
+    .everywhere{
+        padding: 60px;
+        
+    }
+    .shows{
+        padding: 60px;
+        
+    }
+    .footer{
+        padding: 60px 80px;
+       
+    }
+    
+}
+
+
+
+
+
+@media (max-width:950px){
+
+    nav img{
+        height: 35px;
+        margin-left: 40px;
+    }
+    /* .enjoy{
+        height: 50vh;
+    }
+    .everywhere{
+        height: 50vh;
+    } */
+
+    .email-section input{
+        width: 100%;
+    }
+
+    .email-section {
+        flex-direction: column;
+       
+    }
+    .email-section input{
+        border-radius: 2px;
+    }
+    .email-section button{
+        height: 40px;
+        font-size: 16px;
+        border-radius: 2px;
+        margin-top: 15px;
+    }
+    .mid-section{
+        padding: 60px;
+    }
+
+    .mid-section h1{
+        font-size: 44px;
+        font-weight: bold;
+    
+    }
+    .mid-section p{
+        font-size: 22px;
+    }
+    .enjoy{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        padding: 80px;
+        flex-direction: column;
+    }
+    .everywhere{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        padding: 60px;
+        flex-direction: column;
+    }
+    .shows{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        padding: 60px;
+        flex-direction: column-reverse;
+    }
+
+    .text-section{
+        width: 100%;
+        height: 40vh;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    .image-section{
+        width: 100%;
+        height: 60vh;
+        padding: 0px 80px;
+    }
+
+    .image-section img{
+        height: 100%;
+        
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .enjoy h1{
+        font-size: 36px;
+    }
+
+    .enjoy h3{
+        font-size: 18px;
+    }
+    .everywhere h1{
+        font-size: 36px;
+    }
+
+    .everywhere h3{
+        font-size: 18px;
+    }
+
+    .shows h1{
+        font-size: 36px;
+    }
+
+    .shows h3{
+        font-size: 18px;
+    }
+
+    .add-cart .email-section button{
+        width: 35%;
+    }
+
+    .footer{
+        padding: 60px 50px;
+    
+    }
+}
+
+@media (max-width:800px){
+
+    .mid-section{
+        padding: 50px;
+     
+    }
+
+    .grid-section{
+        
+        grid-template-rows: repeat(7, 50px);
+    }
+
+    .box h3{
+        font-size: 18px;
+    }
+
+    .box i{
+        font-size: 24px;    
+}
+
+
+
+.add-cart .email-section button{
+    width: 35%;
+}
+
+
+
+    .add-cart .email-section{
+        width: 70%;
+        
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        border-radius: 2px;
+        
+    }
+
+    .mid-section p{
+        font-size: 18px;
+    }
+    .mid-section{
+        width: 90%;
+    }
+    .enjoy{
+        height: 90vh;
+        text-align: center;
+        padding: 60px;
+    }
+    .everywhere{
+        height: 90vh;
+        text-align: center;
+        padding: 60px;
+    }
+
+    .shows{
+        height: 90vh;
+        text-align: center;
+        padding: 60px;
+    }
+
+    .image-section{
+        padding: 0px 0px;
+    }
+    .image-section img{
+        height: 100%;
+      
+        background-size: cover;
+        background-position: center;
+    }
+
+    .add-cart{
+        padding: 0px;
+       
+    }
+
+    .footer span{
+        flex-wrap: wrap;
+    }
+
+    .section{
+        width: 49%;
+    }
+}
+
+
+@media (max-width:600px){
+
+   nav img{
+    height: 30px;
+    margin-left: 25px;
+   }
+
+ 
+
+   .grid-section{
+    width: 100%;
+}
+
+    .mid-section{
+        width: 100%;
+        padding: 30px;
+
+    }
+
+    .mid-section p{
+        font-size: 18px;
+    }
+  
+    .mid-section h1{
+        font-size: 28px;
+    }
+    .mid-section h3{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .container{
+        height: 80vh;
+    }
+
+    .enjoy{
+        height: 90vh;
+        padding: 60px;
+        text-align: center;
+    }
+
+    .everywhere{
+        height: 90vh;
+        text-align: center;
+        padding: 60px;
+    }
+
+    .shows{
+        height: 90vh;
+        text-align: center;
+        padding: 60px;
+    }
+        .image-section img{
+        height: 100%;
+     
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+
+    .add-cart .email-section{
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+
+    .email-section button{
+        width: 30%;
+    }
+}
+
+
+@media (max-width:500px){
+    .enjoy{
+        height: 70vh;
+        padding: 0px 20px;
+        text-align: center;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    .add-cart .email-section button{
+        width: 30%;
+    }
+
+    .add-cart h1{
+        font-size: 28px;
+    }
+
+    .everywhere{
+        height: 70vh;
+        padding: 0px 20px;
+        text-align: center;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    .shows{
+        height: 80vh;
+        padding: 0px 20px;
+        text-align: center;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    
+    .image-section img{
+        height: 100%;
+      
+        background-size: cover;
+        background-position: center;
+    }
+}
